@@ -14,7 +14,7 @@ import {
 import { bs58 } from "@coral-xyz/anchor/dist/cjs/utils/bytes";
 
 // Define our Mint address
-const mint = publicKey("DqX467gZYkBDtnTCtrUDcWSM7HZdhBvAnSZc92rh4REC");
+const mint = publicKey("79y1dYeaASYwYZ1LybCe22XNiEza76R1oTKK7m4wseto");
 
 // Create a UMI connection
 const umi = createUmi("https://api.devnet.solana.com");

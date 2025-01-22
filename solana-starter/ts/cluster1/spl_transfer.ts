@@ -16,10 +16,10 @@ const commitment: Commitment = "confirmed";
 const connection = new Connection("https://api.devnet.solana.com", commitment);
 
 // Mint address
-const mint = new PublicKey("DqX467gZYkBDtnTCtrUDcWSM7HZdhBvAnSZc92rh4REC");
+const mint = new PublicKey("79y1dYeaASYwYZ1LybCe22XNiEza76R1oTKK7m4wseto");
 
 // Recipient address
-const to = new PublicKey("5LN6TXBDi6V8HatQashFSAxBSpphaxgbD9EioLEbWohA");
+const to = new PublicKey("DNNcRNsYCuq82rZhLMSx1kaqRxtGzq2DGRZXNjED8jtD");
 
 (async () => {
   try {
@@ -46,7 +46,7 @@ const to = new PublicKey("5LN6TXBDi6V8HatQashFSAxBSpphaxgbD9EioLEbWohA");
       keypair.publicKey,
       50000,
     );
-    console.log(`transaction finalised: ${tx}`)
+    console.log(`transaction finalised: ${tx}`);
   } catch (e) {
     console.error(`Oops, something went wrong: ${e}`);
   }

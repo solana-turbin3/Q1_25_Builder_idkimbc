@@ -13,7 +13,7 @@ const token_decimals = 1_000_000n;
 
 // Mint address
 const mintAddress = new PublicKey(
-  "DqX467gZYkBDtnTCtrUDcWSM7HZdhBvAnSZc92rh4REC",
+  "79y1dYeaASYwYZ1LybCe22XNiEza76R1oTKK7m4wseto",
 );
 
 (async () => {
